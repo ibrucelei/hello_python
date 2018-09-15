@@ -1,0 +1,16 @@
+python3网络包urllib urllib3 httplab2 requests
+urllib
+  request
+  error
+  parse
+  robotparse
+
+
+#########################################
+from urllib import request
+res=request.urlopen(url)
+html=res.read().decode("utf-8")
+print(html)
+
+
+#########################################
